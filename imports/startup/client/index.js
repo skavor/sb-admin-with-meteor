@@ -1,4 +1,5 @@
 import './routes';
+import './plugins'
 import '../../ui/templates/dashboard/dashboard'
 import '../../ui/templates/header/header'
 import '../../ui/templates/sidebar/sidebar'

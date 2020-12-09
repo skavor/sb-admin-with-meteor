@@ -4,12 +4,13 @@ import { FlowRouter } from 'meteor/kadira:flow-router';
 import '../../ui/layouts/appLayout/appLayout'
 import '../../ui/layouts/outside/outside'
 
-
+BlazeLayout.setRoot('body');
 
 import '/imports/ui/templates/dashboard/dashboard'
 import '/imports/ui/templates/blank/blank'
 import '../../ui/templates/forgetpassword/forgetpassword'
 import '../../../imports/ui/templates/tables/table'
+import '../../../imports/ui/templates/charts/chart'
 
 
 
