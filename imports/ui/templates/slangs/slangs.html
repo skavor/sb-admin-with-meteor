@@ -1,0 +1,29 @@
+<template name="Slangs">
+    
+        <h1 class="h3 mb-2 text-gray-800">Slangs</h1>
+        <p class="mb-4">Slang is language (words, phrases and usages) of an informal register that members of particular in-groups prefer over the common vocabulary of a standard language in order to establish group identity, exclude outsiders, or both. The word itself came about in the 18th century and has been defined in multiple ways since its conception. With each definition, the implications of slang vary. please visit the <a
+                target="_blank" href="https://en.wikipedia.org/wiki/Slang">official slang
+                documentation</a>.
+        </p>
+        <!-- Content Row -->
+        <div class="row">
+
+            <div class="col-xl-8 col-lg-7 ">
+
+                <a href="#" id="add" class="btn btn-primary">Add</a>
+                {{> NewSlangs slang=currentSlang}}
+                <br>
+                <br>
+                <h5>Here are our slangs:</h5>
+                <br>
+                <div class="row">
+                    {{#each slangs}}
+                        {{> ListSlangs}}
+                    {{/each}}
+                </div>
+                
+
+            </div> 
+        </div> 
+    
+</template>

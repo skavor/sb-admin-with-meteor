@@ -1,1 +1,0 @@
-import './blank.html'

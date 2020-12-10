@@ -1,0 +1,22 @@
+<template name="ListSlangs">
+    <div class="col-md-6 col-lg-4 mb-3">
+        <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">{{ slang }}</h5>
+              <p class="card-text">{{ definition }} </p>  
+            </div>
+            <div class="card-footer">
+                <div class=" d-none d-sm-block">
+                    <div class="btn-group float-right">
+                        <button class="btn btn-success update">Update</button>
+                        <button class="btn btn-danger delete">Remove</button>
+                    </div>
+                </div>
+                <div class="d-block d-sm-none">
+                    <button class="btn btn-success btn-block update">Update</button>
+                    <button class="btn btn-danger btn-block delete">Remove</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
